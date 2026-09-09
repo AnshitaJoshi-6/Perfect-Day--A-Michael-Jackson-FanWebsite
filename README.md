@@ -41,6 +41,8 @@ Visitors can navigate through different sections of the website by clicking on s
 
 
 <img width="1920" height="1080" alt="Untitled design (26)" src="https://github.com/user-attachments/assets/47dca912-7433-4263-91ae-44c671ae0d5e" />
+
+
 <img width="1920" height="3240" alt="Untitled design (28)" src="https://github.com/user-attachments/assets/48b2c2cb-ca07-47f7-9ece-a615b9470c56" />
 
 # Built With
