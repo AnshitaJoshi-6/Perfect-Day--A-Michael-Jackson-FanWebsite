@@ -1,22 +1,22 @@
 
 const IMG = {
-  splash: "Images/screen1.png",
-  home: "Images/HOMEPAGE.png",
-  about: "Images/ABOUT.png",
-  albumsGrid: "Images/4.png",
-  quizIntro: "Images/15.png",
+  splash: "images/screen1.png",
+  home: "images/HOMEPAGE.png",
+  about: "images/ABOUT.png",
+  albumsGrid: "images/4.png",
+  quizIntro: "images/15.png",
 
   albums: [
-    "Images/5.png",
-    "Images/6.png",
-    "Images/7.png",
-    "Images/8.png",
-    "Images/9.png",
-    "Images/10.png",
-    "Images/11.png",
-    "Images/12.png",
-    "Images/13.png",
-    "Images/14.png"
+    "images/5.png",
+    "images/6.png",
+    "images/7.png",
+    "images/8.png",
+    "images/9.png",
+    "images/10.png",
+    "images/11.png",
+    "images/12.png",
+    "images/13.png",
+    "images/14.png"
   ]
 };
 
