@@ -358,28 +358,32 @@ function clearHotspots(frameEl) {
 
 
 function buildSplash() {
-
-  const frame =document.getElementById(
-      "frame-splash" );
-
+  const frame = document.getElementById("frame-splash");
 
   clearHotspots(frame);
 
-
-  addHotspot(frame,
-
-    {top: 0,
+  addHotspot(
+    frame,
+    {
+      top: 0,
       left: 0,
       width: 100,
       height: 100
     },
+    async () => {
+      try {
+        await bgMusic.play();
 
-    () => {startMusic();
+        musicStarted = true;
+        musicToggle.textContent = "🔊";
+        musicToggle.classList.remove("music-off");
+      } catch (error) {
+        console.log("Music could not start:", error);
+      }
 
-      showScreen(
-        "home"
-      );
-    },"Enter site"
+      showScreen("home");
+    },
+    "Enter site"
   );
 }
 
