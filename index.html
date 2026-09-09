@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perfect Day — A Michael Jackson FanWebsite</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@600;700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="app">
+
+  <section id="screen-splash" class="screen active" data-nofab="true">
+    <div class="frame-wrap" id="frame-splash">
+      <img src="Images/screen1.png" alt="Michael Jackson - The King of Pop - Perfect Day, a fan website">
+    </div>
+  </section>
+
+
+
+  <section id="screen-home" class="screen" data-nofab="true">
+    <div class="frame-wrap" id="frame-home">
+      <img src="Images/HOMEPAGE.png" alt="Home - The Moonwalk Was Only the Beginning">
+    </div>
+  </section>
+
+
+  <section id="screen-about" class="screen">
+    <div class="frame-wrap" id="frame-about">
+      <img src="Images/ABOUT.png" alt="About the Night - February 28 1984">
+    </div>
+  </section>
+
+  <section id="screen-albums" class="screen">
+    <div class="frame-wrap" id="frame-albums">
+      <img src="Images/4.png" alt="Albums grid">
+    </div>
+  </section>
+
+  <section id="screen-album-detail" class="screen">
+    <div class="frame-wrap" id="frame-album-detail">
+      <img id="albumDetailImg" src="" alt="">
+    </div>
+  </section>
+  
+
+
+
+  <section id="screen-quiz-intro" class="screen">
+    <div class="frame-wrap" id="frame-quiz-intro">
+      <img src="Images/15.png" alt="How well do you know Michael Jackson - quiz intro">
+    </div>
+  </section>
+
+  <section id="screen-quiz-question" class="screen">
+    <div class="quiz-card">
+      <div class="quiz-progress" id="quizProgress">Question 1 of 10</div>
+      <div class="quiz-question-text" id="quizQuestionText"></div>
+      <div class="quiz-options" id="quizOptions"></div>
+    </div>
+    <button class="btn-next" id="quizNextBtn" style="display:none;">Next</button>
+  </section>
+  
+
+
+<section id="screen-quiz-result" class="screen">
+
+  <div class="frame-wrap" id="frame-quiz-result">
+
+    <img src="Images/17end.png" alt="Quiz Complete">
+
+    <div class="result-score-overlay">
+      <b id="resultScore">0/10</b>
+    </div>
+
+    <div
+      class="result-message-overlay"
+      id="resultMessage">
+    </div>
+
+    <button
+      class="hotspot result-playagain"
+      id="playAgainBtn">
+    </button>
+
+    <button
+      class="hotspot result-backhome"
+      id="backHomeBtn">
+    </button>
+
+  </div>
+</section>
+
+
+</div>
+
+<button class="home-fab" id="homeFab" title="Back to Home" aria-label="Back to Home">⌂</button>
+<button class="debug-toggle" id="debugToggle" type="button">Show hotspots</button>
+
+<audio id="bgMusic" loop>
+  <source src="audio/BillieJean.mp3" type="audio/mpeg">
+</audio>
+
+<button
+  class="music-toggle"
+  id="musicToggle"
+  type="button"
+  aria-label="Toggle background music"
+  title="Music On/Off"
+>
+  🔊
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
