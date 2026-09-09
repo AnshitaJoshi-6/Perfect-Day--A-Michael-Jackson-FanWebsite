@@ -6,7 +6,7 @@ An interactive Michael Jackson fan experience celebrating his legendary journey,
 
 The website takes visitors through Michael Jackson's legendary journey, featuring his iconic albums, memorable achievements, interactive navigation, background music, and a quiz designed to test how well you know the King of Pop.
 
-## ✨ Features
+# Features
 
 - Interactive splash screen
 - Background music with Music ON/OFF control
@@ -21,7 +21,7 @@ The website takes visitors through Michael Jackson's legendary journey, featurin
 - Quick navigation back to the homepage
 - Responsive design for different screen sizes
 
-## 🎮 How It Works
+# How It Works
 
 The website uses an image-based interactive interface combined with custom JavaScript hotspots.
 
@@ -35,7 +35,7 @@ Visitors can navigate through different sections of the website by clicking on s
 - Dynamic quiz results
 - Background music controls
 
-## 🛠️ Built With
+# Built With
 - HTML — Website structure
 - CSS — Styling, layout, animations, and responsive design
 - JavaScript — Navigation, interactive hotspots, quiz logic, score calculation, and music controls
