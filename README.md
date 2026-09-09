@@ -47,8 +47,8 @@ Visitors can navigate through different sections of the website by clicking on s
 <img width="1920" height="3240" alt="Untitled design (28)" src="https://github.com/user-attachments/assets/48b2c2cb-ca07-47f7-9ece-a615b9470c56" />
 
 # Built With
-- HTML — Website structure
-- CSS — Styling, layout, animations, and responsive design
-- JavaScript — Navigation, interactive hotspots, quiz logic, score calculation, and music controls
-- Figma — UI/UX design and visual prototypes
+- **HTML** — Website structure
+- **CSS** — Styling, layout, animations, and responsive design
+- **JavaScript** — Navigation, interactive hotspots, quiz logic, score calculation, and music controls
+- **Figma** — UI/UX design and visual prototypes
 
