@@ -6,6 +6,10 @@ An interactive Michael Jackson fan experience celebrating his legendary journey,
 
 The website takes visitors through Michael Jackson's legendary journey, featuring his iconic albums, memorable achievements, interactive navigation, background music, and a quiz designed to test how well you know the King of Pop.
 
+
+<img width="1892" height="837" alt="Screenshot 2026-09-09 194944" src="https://github.com/user-attachments/assets/767a73eb-907f-4b58-956c-c7e331b79dfd" />
+
+
 # Features
 
 - Interactive splash screen
@@ -34,6 +38,10 @@ Visitors can navigate through different sections of the website by clicking on s
 - Score calculation
 - Dynamic quiz results
 - Background music controls
+
+
+<img width="1920" height="1080" alt="Untitled design (26)" src="https://github.com/user-attachments/assets/47dca912-7433-4263-91ae-44c671ae0d5e" />
+<img width="1920" height="3240" alt="Untitled design (28)" src="https://github.com/user-attachments/assets/48b2c2cb-ca07-47f7-9ece-a615b9470c56" />
 
 # Built With
 - HTML — Website structure
